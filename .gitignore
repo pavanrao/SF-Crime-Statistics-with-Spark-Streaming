@@ -1,3 +1,7 @@
+# Ignore the big json data file. Commit a compressed .gz file instead
+police-department-calls-for-service.json
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
