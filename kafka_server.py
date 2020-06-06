@@ -2,15 +2,15 @@ import producer_server
 
 
 def run_kafka_server():
-	# TODO get the json file path
-    input_file = ""
+	# set the json file path
+    input_file = "/home/workspace/police-department-calls-for-service.json"
 
-    # TODO fill in blanks
+    # kafka producer
     producer = producer_server.ProducerServer(
         input_file=input_file,
-        topic="",
-        bootstrap_servers="",
-        client_id=""
+        topic="com.udacity.crime.police.calls",
+        bootstrap_servers="localhost:9092",
+        client_id="crime.stats.pdcr"
     )
 
     return producer
