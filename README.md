@@ -83,15 +83,15 @@ spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.3.4 --maste
 ## Example of Kafka Consumer and Spark Streaming output
 ### Kafka Consumer Console Output
 
-![kafka consumer output]()
+![kafka consumer output](Screenshots/kafka_consumer_output.png)
 
 ### Progress Reporter
 
-![progress reporter]()
+![progress reporter](Screenshots/progress_report.png)
 
 
 ### Spark UI
-![spark UI]()
+![spark UI](Screenshots/spark_ui.png)
 
 
 ## Question 1
